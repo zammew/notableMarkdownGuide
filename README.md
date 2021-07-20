@@ -69,6 +69,8 @@ we get:
 
 HTML
 <details>
+      <summary>Put title here, otherwise defaults to "details</summary>
+
 hi
 </details>
 
@@ -156,6 +158,8 @@ kbd does nothing
 
     HTML
     <details>
+          <summary>Put title here, otherwise defaults to "details</summary>
+
     hi
     </details>
 
