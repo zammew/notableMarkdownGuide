@@ -33,6 +33,61 @@ Links to local markdown file
 
 ![Image](https://notable.md/favicon.ico)
 
+
+FEATURES in html
+<markdown># htmltagtest from pug for scientific papers</markdown>
+<script>document.write("script doesnt work in Notable");</script>
+<details>test</details>
+<nav>navigation with a href nested<br/><a href="abc.md">abc |</a><a href="abc.md"> dwa |</a><a href="abc.md"> wa</a></nav>
+<q>q is quoted text wheares blockquote takes up whole paragraph </q><strong>strong text is bolded text</strong>
+<blockquote>blockquote:this is a test </blockquote>
+<button>button test (doesnt look very nice in notable)</button>
+<canvas>canvas test (doestn work in notable)
+  <div>some content inside canvas</div>
+</canvas>
+<center>center text</center>
+<cite>cite text (text looks italic inside notable)</cite><br/><code>code text</code><br/>
+<command>command text (text has no difference inside notable)</command>
+<datalist>(doesnt work)</datalist><br/>
+<del>deleted word (or crossed out word)</del><ins>inserted word (underline inserted word)</ins>
+<mark>mark word  (color highlight inserted word)</mark>
+<s>s for strikethrough contrast with underline , italic, bold</s><br/><br/>
+<fieldset>(doesnt work well)
+  <legend>gender</legend>
+  <input type="radio" name="gender"/>
+  <label for="male">male</label>
+</fieldset>
+<hr/>
+<figure><img src="https://notable.md/favicon.ico"/>
+  <figcaption>figcaption example (just below the image wrapped in figure tag below image tag)</figcaption>
+</figure>
+<iframe>try embed youtube??</iframe><br/><img src="https://notable.md/favicon.ico" usemap="#define"/><map name="define">(doesnt work in notable)
+  <h1>reveal map tag </h1></map>
+<div>meter works really nice</div>
+<meter value="80" min="0" max="100"></meter><br/>
+<meter value="60" min="0" max="100"></meter><br/>
+<div>progress is square meter is rounded</div>
+<progress value="60" min="0" max="100"></progress><br/>
+<table>
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>address</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td colspan="2">colspan two</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>dwa</td>
+      <td>dwa</td>
+    </tr>
+  </tbody>
+</table>
+
 > quotation
 >> nested quotation
 
@@ -176,3 +231,112 @@ kbd does nothing
 
 
 [link text](#abcd)
+
+
+<markdown># htmltagtest from pug for scientific papers</markdown>
+<script>document.write("script doesnt work in Notable");</script>
+<details>test</details>
+<nav>navigation with a href nested<br/><a href="abc.md">abc |</a><a href="abc.md"> dwa |</a><a href="abc.md"> wa</a></nav>
+<q>q is quoted text wheares blockquote takes up whole paragraph </q><strong>strong text is bolded text</strong>
+<blockquote>blockquote:this is a test </blockquote>
+<button>button test (doesnt look very nice in notable)</button>
+<canvas>canvas test (doestn work in notable)
+  <div>some content inside canvas</div>
+</canvas>
+<center>center text</center>
+<cite>cite text (text looks italic inside notable)</cite><br/><code>code text</code><br/>
+<command>command text (text has no difference inside notable)</command>
+<datalist>(doesnt work)</datalist><br/>
+<del>deleted word (or crossed out word)</del><ins>inserted word (underline inserted word)</ins>
+<mark>mark word  (color highlight inserted word)</mark>
+<s>s for strikethrough contrast with underline , italic, bold</s><br/><br/>
+<fieldset>(doesnt work well)
+  <legend>gender</legend>
+  <input type="radio" name="gender"/>
+  <label for="male">male</label>
+</fieldset>
+<hr/>
+<figure><img src="https://notable.md/favicon.ico"/>
+  <figcaption>figcaption example (just below the image wrapped in figure tag below image tag)</figcaption>
+</figure>
+<iframe>try embed youtube??</iframe><br/><img src="https://notable.md/favicon.ico" usemap="#define"/><map name="define">(doesnt work in notable)
+  <h1>reveal map tag </h1></map>
+<div>meter works really nice</div>
+<meter value="80" min="0" max="100"></meter><br/>
+<meter value="60" min="0" max="100"></meter><br/>
+<div>progress is square meter is rounded</div>
+<progress value="60" min="0" max="100"></progress><br/>
+<table>
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>address</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td colspan="2">colspan two</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>dwa</td>
+      <td>dwa</td>
+    </tr>
+  </tbody>
+</table>
+
+```html
+<markdown># htmltagtest from pug for scientific papers</markdown>
+<script>document.write("script doesnt work in Notable");</script>
+<details>test</details>
+<nav>navigation with a href nested<br/><a href="abc.md">abc |</a><a href="abc.md"> dwa |</a><a href="abc.md"> wa</a></nav>
+<q>q is quoted text wheares blockquote takes up whole paragraph </q><strong>strong text is bolded text</strong>
+<blockquote>blockquote:this is a test </blockquote>
+<button>button test (doesnt look very nice in notable)</button>
+<canvas>canvas test (doestn work in notable)
+  <div>some content inside canvas</div>
+</canvas>
+<center>center text</center>
+<cite>cite text (text looks italic inside notable)</cite><br/><code>code text</code><br/>
+<command>command text (text has no difference inside notable)</command>
+<datalist>(doesnt work)</datalist><br/>
+<del>deleted word (or crossed out word)</del><ins>inserted word (underline inserted word)</ins>
+<mark>mark word  (color highlight inserted word)</mark>
+<s>s for strikethrough contrast with underline , italic, bold</s><br/><br/>
+<fieldset>(doesnt work well)
+  <legend>gender</legend>
+  <input type="radio" name="gender"/>
+  <label for="male">male</label>
+</fieldset>
+<hr/>
+<figure><img src="https://notable.md/favicon.ico"/>
+  <figcaption>figcaption example (just below the image wrapped in figure tag below image tag)</figcaption>
+</figure>
+<iframe>try embed youtube??</iframe><br/><img src="https://notable.md/favicon.ico" usemap="#define"/><map name="define">(doesnt work in notable)
+  <h1>reveal map tag </h1></map>
+<div>meter works really nice</div>
+<meter value="80" min="0" max="100"></meter><br/>
+<meter value="60" min="0" max="100"></meter><br/>
+<div>progress is square meter is rounded</div>
+<progress value="60" min="0" max="100"></progress><br/>
+<table>
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>address</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td colspan="2">colspan two</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>dwa</td>
+      <td>dwa</td>
+    </tr>
+  </tbody>
+</table>
+```
